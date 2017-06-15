@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Person.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    Person *firstPerson = [[Person alloc] init];
+    firstPerson.name = @"Dima";
+    firstPerson.surname = @"Petrov";
+    
+    Person *secondPerson = firstPerson.copy;
+    
+    NSLog(@"First person name %@ surname %@", firstPerson.name, firstPerson.surname);
+    
+    secondPerson.name = @"Pavel";
+    
+    NSLog(@"Second person name %@ surname %@", secondPerson.name, secondPerson.surname);
+    NSLog(@"First person name %@ surname %@", firstPerson.name, firstPerson.surname);
+    
+    
     return YES;
 }
 

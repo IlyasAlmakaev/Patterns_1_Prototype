@@ -13,6 +13,7 @@
 		2871D2BF1EF230BD00B31B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2871D2BD1EF230BD00B31B4A /* Main.storyboard */; };
 		2871D2C11EF230BD00B31B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2871D2C01EF230BD00B31B4A /* Assets.xcassets */; };
 		2871D2C41EF230BD00B31B4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2871D2C21EF230BD00B31B4A /* LaunchScreen.storyboard */; };
+		2871D2CD1EF2312200B31B4A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2871D2CC1EF2312200B31B4A /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2871D2C01EF230BD00B31B4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2871D2C31EF230BD00B31B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2871D2C51EF230BD00B31B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2871D2CB1EF2312200B31B4A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2871D2CC1EF2312200B31B4A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				2871D2B71EF230BD00B31B4A /* AppDelegate.h */,
 				2871D2B81EF230BD00B31B4A /* AppDelegate.m */,
+				2871D2CB1EF2312200B31B4A /* Person.h */,
+				2871D2CC1EF2312200B31B4A /* Person.m */,
 				2871D2BA1EF230BD00B31B4A /* ViewController.h */,
 				2871D2BB1EF230BD00B31B4A /* ViewController.m */,
 				2871D2BD1EF230BD00B31B4A /* Main.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				2871D2BC1EF230BD00B31B4A /* ViewController.m in Sources */,
 				2871D2B91EF230BD00B31B4A /* AppDelegate.m in Sources */,
+				2871D2CD1EF2312200B31B4A /* Person.m in Sources */,
 				2871D2B61EF230BD00B31B4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
