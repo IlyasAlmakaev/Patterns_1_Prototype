@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284AC24A1EF25C1D008CFE22 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 284AC2491EF25C1D008CFE22 /* README.md */; };
 		2871D2B61EF230BD00B31B4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2871D2B51EF230BD00B31B4A /* main.m */; };
 		2871D2B91EF230BD00B31B4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2871D2B81EF230BD00B31B4A /* AppDelegate.m */; };
 		2871D2BC1EF230BD00B31B4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2871D2BB1EF230BD00B31B4A /* ViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		284AC2491EF25C1D008CFE22 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2871D2B11EF230BD00B31B4A /* Patterns_1_Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns_1_Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2871D2B51EF230BD00B31B4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2871D2B71EF230BD00B31B4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				2871D2B51EF230BD00B31B4A /* main.m */,
+				284AC2491EF25C1D008CFE22 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			files = (
 				2871D2BC1EF230BD00B31B4A /* ViewController.m in Sources */,
 				2871D2B91EF230BD00B31B4A /* AppDelegate.m in Sources */,
+				284AC24A1EF25C1D008CFE22 /* README.md in Sources */,
 				2871D2CD1EF2312200B31B4A /* Person.m in Sources */,
 				2871D2B61EF230BD00B31B4A /* main.m in Sources */,
 			);
@@ -320,6 +324,7 @@
 				2871D2CA1EF230BD00B31B4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
